@@ -5,50 +5,27 @@
     margin: 0px;
 
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
-#divmae {
-    background-color: rgba(128, 128, 128, 0.253);
-
-    padding: 60px;
-    margin: auto;
-    margin-top: 120px;
-
-    text-align: center;
-
-    width: 50vw;
-    height: 40vh;
-
-    border-radius: 30px;
+:root{
+        --cor-primaria: #9A0002;
+        --cor-secundaria: #EFE6DE;
 }
 
-#divimg {
-    width: 50vw;
-    height: 20vh;
-
-    background-image: url("../imagens/background02.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    border-radius: 10px 10px 0px 0px;
+html {
+    background-color:  var(--cor-secundaria);
 }
 
-#divlogin {
-
-    width: 50vw;
-    height: 25vh;
-
-    background-color: rgba(12, 12, 12, 0.096);
-
-    border-radius: 0px 0px 30px 30px;
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
-div > h1 {
-    padding: 10px;
+main {
+    background-color: var(--cor-primaria);
 
-    font-variant: small-caps;
-}
-
-#idemail {
-    margin-bottom: 10px;
+    padding: 80px;
 }
