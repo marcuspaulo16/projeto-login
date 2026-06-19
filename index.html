@@ -16,9 +16,9 @@
             <h1>Login</h1>
             <form action="login.php" method="post">
                 
-                <div class="campo-login">
+                <div class="campoLogin">
 
-                    <label for="idemail">
+                    <label class="iconId" for="idemail">
                         <img src="imagens/id.png" alt="ID/Login">
                     </label>
 
@@ -32,10 +32,10 @@
 
                 <br>
 
-                <div class="campo-senha">
+                <div class="campoSenha">
 
                     <label for="idsenha">
-                        <img src="imagens/password.png" alt="Senha">
+                        <img src="imagens/password.png" class="idIcon" alt="Senha">
                     </label>
 
                     <input
@@ -48,18 +48,16 @@
 
             </form>
 
-            <div>
-
-                <input
-                    type="checkbox"
-                    value="Lembre de mim"
-                    id="idlembrar">
-
-                <label for="idlembrar">Lembre de mim</label>
-                
+            <div class="opcoes">
+                <div>
+                    <input
+                        type="checkbox"
+                        value="Lembre de mim"
+                        id="idlembrar">
+                    <label class="lemb" for="idlembrar">Lembre de mim</label>
+                </div>
+                <input type="button" class="esq" value="Esqueci a Senha">
             </div>
-
-            <input type="button" value="Esqueci a Senha">
 
         </div>
 
