@@ -25,6 +25,7 @@ main {
     position: relative;
     height: 100vh;
     width: 100vw;
+
 }
 
 section#registro {
@@ -35,61 +36,54 @@ section#registro {
 
     transform: translate(-50%, -50%);
 
-    width: 300px;
+    /*width: 300px;
     height: 450px;
 
     background-color: var(--cor-primaria);
 
     border-radius: 30px;
+
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.350);*/
 }
 
-#divimg {
+div#divimg {
+    display: block;
+
     background-image: url(../imagens/background02.jpg);
 
     height: 120px;
     width: 300px;
 
-    border: solid 2px var(--cor-primaria);
     border-radius: 10px 10px 0px 0px;
-    border-bottom: none;
+
 }
 
-#divlogin {
+div#divlogin {
+    height: 300px;
+    width: 300px;
+
+    display: block;
+
     background-color: var(--cor-secundaria);
 
-    padding: 20px 20px;
+    padding: 20px;
 
     border-radius: 0px 0px 10px 10px;
 
-    border: solid 2px var(--cor-primaria);
-
-    border-top: none;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.350);
 }
 
-main > div > h1 {
+main > section > div > h1 {
     text-align: center;
 
     font-variant: all-small-caps;
 
     color: var(--cor-primaria);
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.campoLogin {
-    
 }
 
 img {
     color: var(--cor-primaria);
-}
-
-.campoSenha {
-    
-}
-
-.opcoes {
-    
 }
 
 .lemb {
@@ -131,13 +125,13 @@ button {
     display: block;
     margin: 20px auto;
 
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
 
     font-variant: all-small-caps;
     font-size: 16px;
     font-weight: bold;
 
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
 
     border: none;
 
