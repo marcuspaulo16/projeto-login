@@ -9,59 +9,49 @@
 </head>
 <body>
     <main>
-        <div id="divimg">
+        <section id="registro">
+            <div id="divimg">
             
-        </div>
-        <div id="divlogin">
-            <h1>Login</h1>
-            <form action="login.php" method="post">
-                
-                <div class="campoLogin">
-
-                    <label class="iconId" for="idemail">
-                        <img src="imagens/id.png" alt="ID/Login">
-                    </label>
-
-                    <input
-                        type="email"
-                        name="email"
-                        id="idemail"
-                        placeholder="Email">
-
-                </div>
-
-                <br>
-
-                <div class="campoSenha">
-
-                    <label for="idsenha">
-                        <img src="imagens/password.png" class="idIcon" alt="Senha">
-                    </label>
-
-                    <input
-                        type="password"
-                        name="senha"
-                        id="idsenha"
-                        placeholder="Senha">
-
-                </div>
-
-            </form>
-
-            <div class="opcoes">
-                <div>
-                    <input
-                        type="checkbox"
-                        value="Lembre de mim"
-                        id="idlembrar">
-                    <label class="lemb" for="idlembrar">Lembre de mim</label>
-                </div>
-                <input type="button" class="esq" value="Esqueci a Senha">
             </div>
-
-        </div>
-
-            <button type="submit">Entrar</button>
+            <div id="divlogin">
+                <h1>Login</h1>
+                <form action="login.php" method="post">
+            
+                    <div class="campoLogin">
+                        <label class="iconId" for="idemail">
+                            <img src="imagens/id.png" alt="ID/Login">
+                        </label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="idemail"
+                            placeholder="Email">
+                    </div>
+                    <br>
+                    <div class="campoSenha">
+                        <label for="idsenha">
+                            <img src="imagens/password.png" class="idIcon" alt="Senha">
+                        </label>
+                        <input
+                            type="password"
+                            name="senha"
+                            id="idsenha"
+                            placeholder="Senha">
+                    </div>
+                </form>
+                <div class="opcoes">
+                    <div>
+                        <input
+                            type="checkbox"
+                            value="Lembre de mim"
+                            id="idlembrar">
+                        <label class="lemb" for="idlembrar">Lembre de mim</label>
+                    </div>
+                    <input type="button" class="esq" value="Esqueci a Senha">
+                </div>
+            </div>
+                <button type="submit">Entrar</button>
+        </section>
     </main>
 </body>
 </html>
