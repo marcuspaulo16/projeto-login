@@ -37,15 +37,6 @@ section#registro {
     transform: translate(-50%, -50%);
 
     transition: width 0.4s, height 0.4s;
-
-    /*width: 300px;
-    height: 450px;
-
-    background-color: var(--cor-primaria);
-
-    border-radius: 30px;
-
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.350);*/
 }
 
 div#divimg {
@@ -68,7 +59,7 @@ div#divlogin {
 
     background-color: var(--cor-secundaria);
 
-    padding: 20px;
+    padding: 10px 20px;
 
     border-radius: 0px 0px 10px 10px;
 
@@ -82,21 +73,35 @@ main > section > div > h1 {
 
     color: var(--cor-primaria);
 
+    margin-bottom: 20px;
+
 }
 
-img {
+div.campo {
+    height: 40px;
+
+}
+
+div.campo > span {
+    font-size: 2em;
+
     color: var(--cor-primaria);
 }
 
-.lemb {
-    font-variant: all-small-caps;
+div.campo > input {
+    width: calc(100% - 50px);
 
-    font-size: 12px;
+    height: 30px;
 
-}
+    transform: translateY(-10px);
 
-#idlembrar {
-    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+
+    background-color: var(--cor-primaria);
+
+    text-align: center;
+
 }
 
 .esq {
@@ -147,9 +152,5 @@ button {
 
     transition: all 0.3s ease;
 }
-
-
-
-
 
 

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mq.css">
     <title>L O G I N</title>
@@ -18,21 +20,16 @@
                 <h1>Login</h1>
                 <form action="login.php" method="post">
             
-                    <div class="campoLogin">
-                        <label class="iconId" for="idemail">
-                            <img src="imagens/id.png" alt="ID/Login">
-                        </label>
+                    <div class="campo">
+                        <span class="material-icons">account_circle</span>
                         <input
                             type="email"
                             name="email"
                             id="idemail"
                             placeholder="Email">
                     </div>
-                    <br>
-                    <div class="campoSenha">
-                        <label for="idsenha">
-                            <img src="imagens/password.png" class="idIcon" alt="Senha">
-                        </label>
+                    <div class="campo">
+                        <span class="material-icons">lock</span>
                         <input
                             type="password"
                             name="senha"
@@ -45,11 +42,11 @@
                         <input
                             type="checkbox"
                             value="Lembre de mim"
-                            id="idlembrar">
+                            id="idLembrar">
                         <label class="lemb" for="idlembrar">Lembre de mim</label>
                     </div>
-                    <input type="button" class="esq" value="Esqueci a Senha">
-                    <button type="submit">Entrar</button>
+                    <input type="button" id="idEsqueci" class="esq" value="Esqueci a Senha">
+                    <button type="submit" id="entrar">Entrar</button>
                 </div>
             </div>
         </section>
