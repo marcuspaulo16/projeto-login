@@ -104,10 +104,42 @@ div.campo > input {
 
 }
 
+div.opcoes {
+    display: block;
+
+    float: left;
+
+    width: 100%;
+    height: 40px;
+
+    transform: translateY(15px);
+}
+
+div.esqueci {
+    display: block;
+
+    float: left;
+
+    width: 50%;
+    height: 40px;
+
+}
+
+div.entrar {
+    display: block;
+
+    float: right;
+
+    width: 50%;
+
+    padding-top: 20px;
+
+}
+
 .esq {
     text-decoration: none;
 
-    margin-top: 10px;
+    margin:20px auto;
 
     border: none;
 
@@ -130,6 +162,7 @@ div.campo > input {
 
 button {
     display: block;
+    
     margin: 20px auto;
 
     background-color: var(--cor-primaria);
@@ -151,6 +184,8 @@ button {
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 
     transition: all 0.3s ease;
+
 }
+
 
 
