@@ -19,9 +19,7 @@
         float: left;
 
         width: 30%;
-        height: 100%;
-
-        height: 323px;
+        height: 330px;
 
         border-radius: 30px 0px 0px 30px;
 
@@ -32,7 +30,7 @@
         float: right;
 
         width: 70%;
-        height: 100%;
+        height: 330px;
 
         border-radius: 0px 30px 30px 0px;
     }
@@ -53,7 +51,7 @@
         float: right;
 
         width: 50%;
-        height: 323px;
+        height: 350px;
 
         border-radius: 0px 30px 30px 0px;
 
@@ -64,7 +62,7 @@
         float: left;
 
         width: 50%;
-        height: 100%;
+        height: 350px;
 
         border-radius: 30px 0px 0px 30px;
     }
@@ -101,7 +99,7 @@
         float: right;
 
         width: 30%;
-        height: 50%;
+        height: 330px;
 
         border-radius: 30px 30px 30px 30px;
     }

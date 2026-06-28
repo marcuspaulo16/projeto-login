@@ -52,7 +52,7 @@ div#divimg {
 }
 
 div#divlogin {
-    height: 300px;
+    height: 330px;
     width: 300px;
 
     display: block;
@@ -120,8 +120,8 @@ div.esqueci {
 
     float: left;
 
-    width: 50%;
-    height: 40px;
+    width: 100%;
+    height: 30px;
 
 }
 
@@ -130,13 +130,19 @@ div.entrar {
 
     float: right;
 
-    width: 50%;
+    width: 100%;
+    height: 30px;
 
     padding-top: 20px;
 
 }
 
 .esq {
+
+    width: 100%;
+
+    display: block;
+
     text-decoration: none;
 
     margin:20px auto;
@@ -149,9 +155,9 @@ div.entrar {
 
     color: var(--cor-primaria);
 
-    padding: 3px 6px;
+    padding: 12px 24px;
 
-    border-radius: 5px;
+    border-radius: 12px;
     
     cursor: pointer;
     
@@ -161,6 +167,8 @@ div.entrar {
 }
 
 button {
+    width: 100%;
+
     display: block;
     
     margin: 20px auto;
